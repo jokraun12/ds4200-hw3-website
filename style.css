@@ -1,0 +1,30 @@
+header {
+    background-color: lightgrey;
+    padding: 15px;
+    align-items: center;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header h2 {
+    text-align: center;
+}
+
+p {
+    text-indent: 40px;
+}
+
+footer {
+    background-color: lightgrey;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+}
+
+.center-image {
+    border: 2px solid black;
+    display: block;
+    margin: 20px auto;
+}

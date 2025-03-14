@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <hstack>
+            <Button id="NB">Click here for more details on my interests!</Button>
+            <h1>Welcome to John Kraunelis' Personal Website!</h1>
+        </hstack>
+    </header>
+
+    <vstack>
+        <h2>About Me</h2>
+        <p>Hello!  My name is John Kraunelis and I am a fourth year Computer Science and Finance Major at Northeastern University.  
+            I am from Braintree, MA and currently reside on Mission Hill, not far from Northeastern's campus.  
+            I originally wanted to write about my passion for the financial markets but I decided to go with something a little 
+            more extracurricular.  Growing up by the ocean I always had a keen interest in fishing, swimming, and all things revolving 
+            around the water.  I had always loved boats, but never had the chance to own one.  However, after a few years working at a 
+            restaurant during high school, I transitioned to another job in Boston at Freedom Boat Club.  At this job, I was able to work on 
+            boats by cleaning them, fixing them, and taking trips to the gas dock to ensure they were always on a full tank!  
+            <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Through this job, I was able to get paid for doing 
+            something that I was passionate about.  
+            I met a lot of really awesome people here, but also learned a lot of valuable technical expertise about boats.  
+            After several years of working here, I made the ultimate decision that I would eventually buy a boat for myself one day!</p>
+    </vstack>
+
+    <script>
+        const navigateButton = document.getElementById('NB')
+        navigateButton.addEventListener('click', function(){
+            window.location.href = 'details.html'
+        })
+    </script>
+
+    <img src="https://reservations.freedomboatclub.com/content/dam/fbc-reservations/boat-images/21211/IMG_0049.jpg" 
+            alt="Freedom Boat Club - Fan Pier Location", width = 600, class="center-image">
+
+    <footer>
+        <vstack>
+            <h3>Contact Information:</h3>
+            <p>Email: kraunelis.j@northeastern.edu</p>
+            <p><a href="www.linkedin.com/in/john-kraunelis">Visit my LinkedIn!</a></p>
+        </vstack>
+        <p style="text-align: center">2025 Copyright | John Kraunelis</p>
+    </footer>
+
+</body>
+</html>

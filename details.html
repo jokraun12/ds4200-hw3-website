@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <hstack>
+            <Button id="NB">Return Home</Button>
+            <vstack>
+                <h1>Welcome to John Kraunelis' Personal Website!</h1>
+                <h2>Details Page</h2>
+            </vstack>
+        </hstack>
+    </header>
+
+    <h2>More Details</h2>
+    <p>Welcome to the second page of my personal website!  Here, I will go into my previously described passion in more detail.  
+        As mentioned, I always had a passion for boats, but never owned one myself.  I was extremely lucky to have friends that had 
+        boats, which made it possible for me to experience such a cool thing at a younger age than most, and this is also what 
+        led to me developing this passion in the first place.  <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The way 
+        Freedom Boat Club operates is similar to a “country club.”  
+        Customers can pay a monthly membership fee and in return, they can reserve our boats for free, and they only pay for the gas 
+        that they use.  Therefore, our company owns fleets of boats, and it is our job to maintain them, gas them up, clean them, 
+        and ensure they are operating properly.  There happens to be Freedom locations all over the Boston area – Charlestown, Hingham, 
+        Quincy, Plymouth, and Scituate just to name a few, so I had the opportunity to take boats all around Boston Harbor for employee duties. 
+         As I’m sure you could imagine, this was very similar to my previous job at a restaurant when it came to customer service skills. 
+          Dealing with customers, especially unhappy customers, is a very important skill, and while it was a much different customer-base
+           at the boat club, there were a lot of similarities there.</p>
+
+    <script>
+        const navigateButton = document.getElementById('NB')
+        navigateButton.addEventListener('click', function(){
+            window.location.href = 'index.html'
+        })
+    </script>
+
+    <h3>Things I learned on the job:</h3>
+    <ul class="learn-list">
+        <li>Fix many common issues on boats regarding the navigation system, the engine, the water pump, and the electrical wiring.</li>
+        <li style="color:rgb(0, 114, 114)">Get a boat on a trailer at the ramp, as well as launch a boat off of a trailer (my favorite one).</li>
+        <li>Perform an oil change on an out-board boat engine!</li>
+        <li>How to tow a boat that was out of service using another similarly sized boat.</li>
+        <li>To tie a boat down to a kleat on the docks.</li>
+    </ul>
+
+    <img src="https://www.bdoutdoors.com/wp-content/uploads/2018/07/key-west-1.jpg" 
+            alt="Key West Center Console at full throttle", width = 600, class="center-image">
+
+    <footer>
+        <vstack>
+            <h3>Contact Information:</h3>
+            <p>Email: kraunelis.j@northeastern.edu</p>
+            <p><a href="www.linkedin.com/in/john-kraunelis">Visit my LinkedIn!</a></p>
+        </vstack>
+        <p style="text-align: center">2025 Copyright | John Kraunelis</p>
+    </footer>
+
+</body>
+</html>
